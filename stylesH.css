@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#chefs-img{
+    
+    background-color: aqua;
+    border-radius: 8px;
+}
+.i-mg{
+   width: 390px;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 8px;
+   margin: 10px;
+    cursor: pointer;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    transition: .5s;
+    transform: scale(1);
+   
+ 
+
+}

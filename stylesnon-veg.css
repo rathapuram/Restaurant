@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.conteainer {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.i-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.i-container img {
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    padding: 10px;
+    margin: 8px;
+
+}
+
+.curry{
+   
+    font-size: 15px;
+    margin: 20px 60px 10px 60px;
+    font-weight: bold;
+    
+  
+    color: rgb(0, 0, 0);
+    padding: 10px;
+   
+}
+
+.curry-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.curry-container img {
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    padding: 10px;
+    margin: 8px;
+}
+
+.i-name {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.o-btn {
+    width: 255px;
+    height: 50px;
+    background-color: lightcyan;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-items: center;
+
+
+}
+
+.o-btn:hover {
+    background-color: lightsteelblue;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*index3 styles............*/
+
+
+.final {
+    background-color: lightseagreen;
+
+}
+
+#hh1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+#hh2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Alex Brush", cursive;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+.thumb {
+    font-size: 45px;
+    text-align: center;
+    flex-wrap: wrap;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
